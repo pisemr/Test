@@ -14,10 +14,7 @@ const Navigation = ({
 }) => (
   <header className="Navigation">
     <div className="Navigation-link">
-      <Link to={routes.PROFILE}>Profile</Link>
-    </div>
-    <div className="Navigation-link">
-      <Link to={routes.ORGANIZATION}>Organization</Link>
+      <Link to={routes.ORGANIZATION}>GraphQL</Link>
     </div>
 
     {pathname === routes.ORGANIZATION && (

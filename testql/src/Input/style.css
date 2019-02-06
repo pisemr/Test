@@ -10,11 +10,11 @@
 }
 
 .Input_white {
-  border-bottom: 1px solid #fff;
-  color: #fff;
+  border-bottom: 1px solid #000;
+  color: #000;
 }
 
 .Input_black {
-  border-bottom: 1px solid #000;
-  color: #000;
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
