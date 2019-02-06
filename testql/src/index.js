@@ -8,7 +8,7 @@ import { onError } from 'apollo-link-error';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
 import * as serviceWorker from './serviceWorker';
-import App from './App';
+import App from './App1';
 
 import './style.css';
 

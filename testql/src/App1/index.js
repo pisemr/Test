@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Navigation from './Navigation';
-import Footer from './Footer';
+//import Footer from './Footer';
 import Profile from '../Profile';
 import Organization from '../Organization';
 
@@ -51,7 +51,6 @@ class App extends Component {
             />
           </div>
 
-          <Footer />
         </div>
       </Router>
     );
