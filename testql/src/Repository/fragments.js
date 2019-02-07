@@ -6,9 +6,6 @@ const REPOSITORY_FRAGMENT = gql`
     name
     url
     descriptionHTML
-    primaryLanguage {
-      name
-    }
     owner {
       login
       url

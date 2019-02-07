@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Navigation from './Navigation';
-//import Footer from './Footer';
-//import Profile from '../Profile';
 import Organization from '../Organization';
 
 import * as routes from '../constants/routes';
@@ -12,7 +10,7 @@ import './style.css';
 
 class App extends Component {
   state = {
-    organizationName: 'the-road-to-learn-react',
+    organizationName: 'javascript',
   };
 
   onOrganizationSearch = value => {
