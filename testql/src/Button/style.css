@@ -17,11 +17,11 @@
 }
 
 .Button_black {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #000;
+  color: #000;
 }
 
 .Button_black:hover {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #000;
 }
